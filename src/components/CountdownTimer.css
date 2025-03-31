@@ -1,0 +1,16 @@
+.countdown-timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff3b30;
+    background: #fff3f3;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .timer-text {
+    font-weight: bold;
+    color: #d0021b;
+  }
+  

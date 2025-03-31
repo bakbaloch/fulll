@@ -1,0 +1,55 @@
+.hero {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  background-color: #ffffff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Image Section */
+.hero-image {
+  display: flex;
+  gap: 20px; /* Adds space between the images */
+}
+
+.hero-image img {
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #458ff6;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #356ae5;
+}
